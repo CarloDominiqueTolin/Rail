@@ -19,6 +19,12 @@ body {
 
 .map-panel {
     width:340px;
+    height:600px;
+}
+
+.map-modal-whole {
+    height: 100%;
+    width: 100%;
 }
 
 .top-bar {
@@ -52,9 +58,8 @@ body {
     display:flex;
     justify-content: center;
     align-items: center;
-    height:400px;
+    height:480px;
     width:100%;
-    margin-top:32px;
 }
 
 .feed-control {
@@ -62,14 +67,22 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 8px;
 }
 
-.modal-content {
+.modal-large {
     width:924px;
     height: 500px;
     justify-self: center;
     align-self: center;
     background-color: #4c4c4c;
+}
+
+.modal-mini {
+    justify-self: center;
+    align-self: center;
+    background-color: #4c4c4c;
+    width:40vw;
 }
 
 .menu-panel {
@@ -84,7 +97,7 @@ body {
 .menu-panel div {
     height:100px;
     width:100px; 
-    background-size:contain ;
+    background-size:contain;
 }
 
 #map-button {
@@ -97,4 +110,9 @@ body {
 
 #email-button {
     background-image: url('send.png');
+}
+
+#delete-modal {
+    margin:auto;
+    margin-top:150px;
 }
